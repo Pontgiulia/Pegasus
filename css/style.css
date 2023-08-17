@@ -103,6 +103,7 @@ footer {
     object-fit: cover;
     margin-right: 20px;
     float: left;
+    padding-left: 1%;
 }
 
 .biography-text {
