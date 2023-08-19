@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #7b84b5;
 }
 
 header {
     background-color: #333;
     color: #b0b5df;
-    padding: 20px;
+    padding: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +32,7 @@ nav a {
 }
 
 .container{
-    width: 70%;
+    width: 85%;
     margin: auto;
     background-color: #474545;
 }
@@ -42,6 +43,7 @@ h1{
     padding-left: 2%;
     padding-right: 2%;
     color: white;
+   
 }
 
 h2 {
@@ -76,12 +78,14 @@ p{
     padding-bottom: 1%;
     color: white;
     font-size: 1.2em;
+    text-align: justify;
+    
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 3%;
     text-align: center;
 }
 
@@ -189,4 +193,10 @@ ul{
     padding-right: 2%;
     float: left;
     width: 15%;
+}
+
+.videos{
+
+text-align: center;
+
 }
