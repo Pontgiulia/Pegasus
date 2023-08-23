@@ -107,7 +107,7 @@ footer {
     object-fit: cover;
     margin-right: 20px;
     float: left;
-    padding-left: 1%;
+    padding-left: 2%;
 }
 
 .biography-text {
@@ -196,7 +196,7 @@ ul{
 }
 
 .videos{
-
-text-align: center;
+    padding: 2%;
+    text-align: center;
 
 }
