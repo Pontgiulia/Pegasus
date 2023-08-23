@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #7b84b5;
+    background-color: #DCE3ED;
 }
 
 header {
-    background-color: #333;
-    color: #b0b5df;
+    background-color: #0E2A4A;
+    color: #DCE3ED;
     padding: 3%;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ nav li {
 }
 
 nav a {
-    color: #7b84b5;
+    color: #DCE3ED;
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,7 +34,7 @@ nav a {
 .container{
     width: 85%;
     margin: auto;
-    background-color: #474545;
+    background-color: #43627F;
 }
 
 h1{
@@ -42,7 +42,7 @@ h1{
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    color: white;
+    color: #DCE3ED;
    
 }
 
@@ -51,10 +51,12 @@ h2 {
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    margin-top: 0;
-    color: white;
-    background-color: #333;
+    color: #DCE3ED;
+    background-color: #0D2840;
+    width: 50%;
+    margin: auto;
     text-align: center;
+    border-radius: 5em;
 }
 
 h3{
@@ -63,28 +65,29 @@ h3{
     padding-left: 2%;
     padding-right: 2%;
     color: white;
+
 }
 
 h4{
     padding-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    color: white;}
+    color: #DCE3ED;}
 
 p{
     padding-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 1%;
-    color: white;
+    color: #DCE3ED;
     font-size: 1.2em;
     text-align: justify;
     
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #0E2A4A;
+    color: #DCE3ED;
     padding: 3%;
     text-align: center;
 }
@@ -96,7 +99,7 @@ footer {
     background-color: #e8e5e5;
     padding-bottom: 50px;
     padding-top: 30px;
-    border-radius: 10px;
+    border-radius: 4em;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -181,10 +184,12 @@ ul{
 
 .empresas{
     display: block;
-    background-color: #333;
+    background-color: #0D2840;
     margin: auto;
     width: 95%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
+    padding-top: 3;
+    border-radius: 1em;
 }
 
 .emp{
@@ -199,4 +204,17 @@ ul{
     padding: 2%;
     text-align: center;
 
+}
+
+.fog{
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    display: block;
+}
+
+.ins{
+    width: 80%;
+    margin: auto;
+    display: block;
 }
