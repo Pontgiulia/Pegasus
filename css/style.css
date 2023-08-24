@@ -218,3 +218,12 @@ ul{
     margin: auto;
     display: block;
 }
+
+i:not(.em){
+    background-color: #2b435a;
+}
+
+h3:not(.em){
+    background-color: #375775;
+    
+}
